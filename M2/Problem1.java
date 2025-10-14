@@ -15,22 +15,18 @@ public class Problem1 extends BaseClass {
         // Step 3: Add code to solve the problem (add/commit as needed)
         System.out.print("Output Array: ");
         // Start Solution Edits
+
+        // Step 1: iterate over arr
+        // Step 2: check if value is odd
+        // Step 3: print value
         
-        //dtr 09-30-25
 
-        //step 1: iterate through arr by using ...
-        //step 2: using ... to determine if odd
-        //step 3: using ... to output the odd value ensuring it's a single line of text
-
-
-        System.out.println("1,1,1");
-        
         // End Solution Edits
         System.out.println("");
         System.out.println("______________________________________");
     }
     public static void main(String[] args) {
-        final String ucid = "dtr"; // <-- change to your UCID
+        final String ucid = "mt85"; // <-- change to your UCID
         // no edits below this line
         printHeader(ucid, 1);
         printOdds(array1,1);

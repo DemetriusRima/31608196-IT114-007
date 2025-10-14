@@ -12,7 +12,7 @@ Challenge 1: Command-Line Calculator
 */
 
 public class CommandLineCalculator extends BaseClass {
-    private static String ucid = "mt85"; // <-- change to your ucid
+    private static String ucid = "dtr"; // <-- change to your ucid
 
     public static void main(String[] args) {
         printHeader(ucid, 1, "Objective: Implement a calculator using command-line arguments.");
@@ -24,9 +24,11 @@ public class CommandLineCalculator extends BaseClass {
         }
 
         try {
-            System.out.println("Calculating result...");
+            System.out.println("Calculating result...");  
+            // dtr 10-13-25 fake solution
+            System.out.println("The answer in pi");
             // extract the equation (format is <num1> <operator> <num2>)
-
+            
             // check if operator is addition or subtraction
 
             // check the type of each number and choose appropriate parsing
