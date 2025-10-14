@@ -13,8 +13,7 @@ public class Problem2 extends BaseClass {
         printArrayInfo(arr, arrayNumber);
 
         // Challenge 1: Sum all the values of the passed in array and assign to `total`
-        // Challenge 2: Have the sum be represented as a number with exactly 2 decimal 
-        //places, assign to `modifiedTotal`
+        // Challenge 2: Have the sum be represented as a number with exactly 2 decimal places, assign to `modifiedTotal`
         // Example: 0.1 would be shown as 0.10, 1 would be shown as 1.00, etc
         // Step 1: sketch out plan using comments (include ucid and date)
         // Step 2: Add/commit your outline of comments (required for full credit)
@@ -22,16 +21,15 @@ public class Problem2 extends BaseClass {
         double total = 0;
         // Start Solution Edits
         // Solve Challenge 1 here
+
+        // step 1
+        // step 2
+        // step 3
         
-        //dtr 10-03-25
-        ///step 1: itarate through the array by ...
-        ///step 2: track sum by ...
-        ///step 3: update representation by ... and assign to modifiedTotal
-        
+      
         // Solve Challenge 2 here
         Object modifiedTotal = "?";
-        modifiedTotal = "1.00";
-        
+
         // End Solution Edits
         System.out.println("Total Raw Value: " +total);
         System.out.println("Total Modified Value: " + modifiedTotal);
@@ -40,7 +38,7 @@ public class Problem2 extends BaseClass {
     }
 
     public static void main(String[] args) {
-        final String ucid = "dtr"; // <-- change to your UCID
+        final String ucid = "mt85"; // <-- change to your UCID
         // no edits below this line
         printHeader(ucid, 2);
         sumValues(array1, 1);
