@@ -35,7 +35,14 @@ public class MadLibsGenerator extends BaseClass {
         }
         List<String> lines = new ArrayList<>();
         // Start edits
-
+        lines.add("Today, I went to the zoo and saw a <adjective> <animal>.\r\n" + //
+                        "It was <verb_ending_in_ing> near the <place>.\r\n" + //
+                        "The zookeeper said it loved eating <food> and sleeping under a <object>.\r\n" + //
+                        "Before I left, I bought a <adjective> <souvenir> from the gift shop!\r\n" + //
+                        "");
+        //
+        //
+        //
         // load a random story file
 
         // parse the story lines
@@ -46,7 +53,11 @@ public class MadLibsGenerator extends BaseClass {
         // placeholder in a line)
 
         // apply the update to the same collection slot
-
+        lines.add("Today, I went to the zoo and saw a <Giant> <Alligator>.\r\n" + //
+                        "It was <Crawling> near the <swamp>.\r\n" + //
+                        "The zookeeper said it loved eating <meat> and sleeping under a <log>.\r\n" + //
+                        "Before I left, I bought a <shiny> <globe> from the gift shop!\r\n" + //
+                        "");
         // End edits
         System.out.println("\nYour Completed Mad Libs Story:\n");
         StringBuilder finalStory = new StringBuilder();
