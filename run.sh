@@ -1,4 +1,4 @@
-sh
+#!/bin/bash
 # Convert input to lowercase
 input=$(echo "${2:-client}" | tr '[:upper:]' '[:lower:]')
 port=${3:-3000}  # Default port to 3000 if not 
